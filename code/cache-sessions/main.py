@@ -6,7 +6,7 @@ import uuid
 import redis
 
 
-DATABASE_NAME = "data/my-db"
+DATABASE_NAME = "../data/my-db"
 
 redis = redis.Redis(host='localhost', port=6379, db=0)
 
@@ -55,7 +55,7 @@ def request_home_page(session_id):
         print("Unauthorized")
 
 if __name__ == "__main__":
-    os.makedirs("data", exist_ok=True)
+    os.makedirs("../data", exist_ok=True)
     setup_users()
     username = "Harsha"
     password = "Harsha123"
