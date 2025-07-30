@@ -1,0 +1,6 @@
+1. Externalizing configuration using redis.conf
+2. # WARNING: The TCP backlog setting of 511 cannot be enforced because kern.ipc.somaxconn is set to the lower value of 128.
+3. Ziplist Data Structure
+4. How command helps in describing key type
+5. Data Structues underneath Sorted Sets - (SkipList + Hashtable)
+
