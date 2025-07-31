@@ -1,0 +1,18 @@
+1. Externalizing configuration using redis.conf
+2. # WARNING: The TCP backlog setting of 511 cannot be enforced because kern.ipc.somaxconn is set to the lower value of 128.
+3. ZipList Data Structure
+4. How command helps in describing key type
+5. Data Structures underneath Sorted Sets - (SkipList + Hashtable)
+6. Understand more about redis encodings
+🧬 Redis Internal Encodings
+Redis uses efficient internal data representations depending on size and structure:
+
+----------------------------------------------------------------------------
+|Data Type |Encoding(s)	   |    Description                                 |
+-----------------------------------------------------------------------------
+STRING	    raw, int	        int used for small integers
+LIST	    quicklist	        Compact linked list
+SET	        intset, hashtable	Small sets as intset, else hashmap
+HASH	    ziplist, hashtable	Compact when <512 entries or small fields
+ZSET	    ziplist, skiplist	Sorted set uses ziplist if small
+-----------------------------------------------------------------------------

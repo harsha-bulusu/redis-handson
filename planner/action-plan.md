@@ -42,7 +42,7 @@ Here's a **7-day deep dive plan** to master Redis with local setup, internals, a
 
   * `STRING`, `LIST`, `SET`, `HASH`, `ZSET`
   * Time complexity, encoding (SDS, ziplist, intset, hashtable)
-* Use `MONITOR` and `INFO` to observe live command flows
+  * Use `MONITOR` and `INFO` to observe live command flows
 
 **Evening**
 
