@@ -105,8 +105,7 @@ Use consumer groups when you want **at-least-once delivery**, **message acknowle
 | `XREADGROUP GROUP group1 consumer1 STREAMS mystream >` | Read unacknowledged entries           |
 | `XACK mystream group1 id`                              | Acknowledge message                   |
 | `XPENDING mystream group1`                             | View unacked message stats            |
-| `XCLAIM mystream group1 new_consumer ...`              | Claim old (stuck) messages            |
-| `XAUTOCLAIM mystream group1 new_consumer 60000 0`      | Auto-claim messages pending for > 60s |
+| `azaz    | Auto-claim messages pending for > 60s |
 
 ### 🧠 How `XREADGROUP` Works
 
