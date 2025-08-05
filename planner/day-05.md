@@ -1,6 +1,6 @@
 ---
 
-## 🎯 **Day 4: Redis Pub/Sub vs Streams – Deep Dive with Real-World Use Cases**
+## 🎯 **Day 5: Redis Pub/Sub vs Streams – Deep Dive with Real-World Use Cases**
 
 ---
 
